@@ -1,7 +1,42 @@
-h1 {
-  color: red;
-  font-weight: 900;
-  font-size: 120px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #444;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("../assets/images/hero-bg.jpg");
+  background-size: cover;
+  color: #f7f7f7;
+}
+
+.main-menu {
+  background-color: transparent;
+}
+
+#nav-mobile {
+  margin-right: 3.125rem;
+}
+
+.brand-logo {
+  display: block;
+  margin-left: 3.125rem;
 }
 
 /*# sourceMappingURL=App.css.map */

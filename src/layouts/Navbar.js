@@ -1,0 +1,42 @@
+import React from 'react';
+import navLinks from '../utils/menu-links';
+import Logo from '../components/Logo';
+
+const NavigationMenu = () => {
+  const menuLinks = navLinks.map((item, index) => {
+    return (
+      <li key={index}>
+        <a href={item.path}>{item.text}</a>
+        <div className="divider hide-on-large-only"></div>
+      </li>
+    );
+  });
+
+  return (
+    <>
+      <header>
+        <nav className="main-menu">
+          <div className="nav-wrapper">
+            <Logo />
+            <a
+              href="#!"
+              data-target="mobile-demo"
+              className="sidenav-trigger"
+              rel="noopener noreferrer"
+            >
+              <i className="material-icons">menu</i>
+            </a>
+            <ul id="nav-mobile" className="right hide-on-med-and-down">
+              {menuLinks}
+            </ul>
+          </div>
+        </nav>
+        <ul className="sidenav" id="mobile-demo">
+          {menuLinks}
+        </ul>
+      </header>
+    </>
+  );
+};
+
+export default NavigationMenu;
