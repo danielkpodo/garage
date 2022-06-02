@@ -6,7 +6,7 @@ const Product = () => {
   return (
     <section className="container product">
       <div className="section-title center-align">
-        <h2>Our Product</h2>
+        <h2>Our Products</h2>
       </div>
       <div className="row">
         <ProductList products={products} />

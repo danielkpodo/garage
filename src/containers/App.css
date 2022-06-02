@@ -164,10 +164,33 @@ header {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+h2 {
+  padding: 2rem 4rem;
+  font-size: 3.2rem;
+  font-family: "Rubik", "sans-serif";
+}
+
 .product .card-image .card-title {
-  color: #f66f11;
+  background: rgba(34, 34, 34, 0.7);
+  color: #fff;
   font-weight: 800;
-  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.about-us {
+  background: #fdf2ea;
+  padding: 1.5rem;
+}
+.about-us .about-content {
+  margin: 0 auto;
+  text-align: center;
+}
+.about-us .about-content p {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.about-us .join {
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=App.css.map */
