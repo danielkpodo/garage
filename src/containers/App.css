@@ -26,11 +26,16 @@ header {
   position: relative;
   background-image: linear-gradient(rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("../assets/images/hero-bg.jpg");
   background-size: cover;
-  color: #f7f7f7;
+  color: #fff;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .main-menu {
   background-color: transparent;
+  margin-bottom: 5.75rem;
 }
 
 #nav-mobile {
@@ -40,6 +45,74 @@ header {
 .brand-logo {
   display: block;
   margin-left: 3.125rem;
+}
+
+.header-container {
+  padding: 0.71rem 1.43rem;
+}
+.header-container h1 {
+  font-size: 3rem;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 2.29rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.header-container p {
+  font-size: 1.43rem;
+  line-height: 1.6;
+  margin-bottom: 3.43rem;
+}
+.header-container .contact-us {
+  margin-right: 1rem;
+}
+.header-container a img {
+  max-width: 100%;
+  border-radius: 34% 5%;
+  display: inline-block;
+  padding: 0.375rem 0.714rem;
+}
+
+.button,
+.button:link,
+.button:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 9px;
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+  /* border: 3px solid #fff; */
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 3px #fff;
 }
 
 /*# sourceMappingURL=App.css.map */

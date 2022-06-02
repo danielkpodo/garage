@@ -1,6 +1,7 @@
 import React from 'react';
 import navLinks from '../utils/menu-links';
 import Logo from '../components/Logo';
+import Hero from '../components/Hero';
 
 const NavigationMenu = () => {
   const menuLinks = navLinks.map((item, index) => {
@@ -34,6 +35,7 @@ const NavigationMenu = () => {
         <ul className="sidenav" id="mobile-demo">
           {menuLinks}
         </ul>
+        <Hero />
       </header>
     </>
   );
