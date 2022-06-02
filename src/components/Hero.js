@@ -24,7 +24,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="col l6 m6 s12">
+        <div className="col l6 m6 s12 ">
           <a href="#!">
             <img src={vehicle} className="responsive-img" alt="our offer" />
           </a>

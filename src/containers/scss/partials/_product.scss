@@ -1,2 +1,9 @@
 .product {
+  .card-image {
+    .card-title {
+      color: $orange-tiger;
+      font-weight: 800;
+      text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+    }
+  }
 }
