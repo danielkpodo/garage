@@ -54,7 +54,7 @@ html {
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #fff;
   font-family: "Montserrat", sans-serif;
   color: #555;
   font-weight: 400;
@@ -63,6 +63,11 @@ body {
 
 img {
   max-width: 100%;
+}
+
+p {
+  font-size: 1.14rem;
+  line-height: 1.6;
 }
 
 header {

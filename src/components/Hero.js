@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="header-container container">
       <div className="row">
-        <div className="col l6">
+        <div className="col l6 m6 s12">
           <h1>
             The No.1 platform for connecting fleet owners to maintenance
             services and affordable parts
@@ -16,15 +16,15 @@ const Hero = () => {
             limiting unplanned maintenance.
           </p>
           <div className="actions">
-            <a href="#!" class="button btn--full contact-us">
+            <a href="#!" className="button btn--full contact-us">
               Contact Us
             </a>
-            <a href="#!" class="button btn--outline">
+            <a href="#!" className="button btn--outline">
               Learn more &darr;
             </a>
           </div>
         </div>
-        <div className="col l6">
+        <div className="col l6 m6 s12">
           <a href="#!">
             <img src={vehicle} className="responsive-img" alt="our offer" />
           </a>

@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import M from 'materialize-css';
 import Navbar from '../layouts/Navbar';
+import Product from '../components/Product/Product';
 
 function App() {
   const [isLoading, setisLoading] = React.useState(true);
@@ -22,6 +23,7 @@ function App() {
     !isLoading && (
       <>
         <Navbar />
+        <Product />
       </>
     )
   );
