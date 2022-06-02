@@ -6,12 +6,15 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 87.5%;
 }
 
 body {
   background-color: #f7f7f7;
-  color: #444;
-  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  color: #555;
+  font-weight: 400;
+  line-height: 1;
 }
 
 img {
