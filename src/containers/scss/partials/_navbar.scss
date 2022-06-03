@@ -33,6 +33,9 @@ header {
   @include tablet {
     margin-left: 0;
   }
+  @include phone {
+    margin-left: 0;
+  }
 }
 
 .header-container {
