@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
-import M from 'materialize-css';
 import Navbar from '../layouts/Navbar';
 import Product from '../components/Product/Product';
 import About from '../components/About/About';
@@ -11,10 +10,7 @@ import Footer from '../layouts/Footer';
 
 function App() {
   const [isLoading, setisLoading] = React.useState(true);
-  React.useEffect(() => {
-    /** Initializes javscript features of materialize css on page mount */
-    M.AutoInit();
-
+  useEffect(() => {
     const spinner = document.getElementById('spinner');
     if (spinner) {
       setTimeout(() => {

@@ -8,7 +8,7 @@ const SingleProduct = ({ product }) => {
           <img
             src={product.imgUrl}
             alt="This our product"
-            className="materialboxed"
+            className="responsive-img"
           />
           <span className="card-title">{product.title}</span>
         </div>

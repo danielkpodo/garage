@@ -2,8 +2,18 @@ import React from 'react';
 import navLinks from '../utils/menu-links';
 import Logo from '../components/Logo';
 import Hero from '../components/Hero';
+import M from 'materialize-css';
 
 const NavigationMenu = () => {
+  React.useEffect(() => {
+    /** Initialize sidemenu */
+    var elem = document.querySelector('.sidenav');
+    M.Sidenav.init(elem, {
+      edge: 'left',
+      inDuration: 250,
+    });
+  }, []);
+
   const menuLinks = navLinks.map((item, index) => {
     return (
       <li key={index}>
@@ -12,7 +22,6 @@ const NavigationMenu = () => {
       </li>
     );
   });
-
   return (
     <>
       <header>
