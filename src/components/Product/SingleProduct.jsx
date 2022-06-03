@@ -17,7 +17,7 @@ const SingleProduct = ({ product }) => {
         </div>
         <div className="card-action">
           <a href="#!" className="product-link">
-            Read More
+            Read More &rarr;
           </a>
         </div>
       </div>

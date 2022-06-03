@@ -179,6 +179,15 @@ h2 {
   font-weight: 800;
 }
 
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color: #f66f11;
+  font-weight: 800;
+  padding: 5px;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+  color: #0a2a37;
+}
+
 .about-us {
   background: #fdf2ea;
   padding: 1.5rem;
