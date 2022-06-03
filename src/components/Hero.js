@@ -15,12 +15,18 @@ const Hero = () => {
             provide parts at an affordable price, improving reliability and
             limiting unplanned maintenance.
           </p>
+
           <div className="actions">
-            <a href="#!" className="button btn--full contact-us">
+            <a href="#!" className="waves-effect waves-light btn-small contact">
               Contact Us
             </a>
-            <a href="#!" className="button btn--outline">
-              Learn more &darr;
+            <a
+              href="#!"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="waves-effect waves-light btn-small learn--more "
+            >
+              Learn More
             </a>
           </div>
         </div>

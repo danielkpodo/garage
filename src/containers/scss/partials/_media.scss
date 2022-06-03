@@ -3,6 +3,20 @@ $mobile: 500px;
 $desktop: 1200px;
 $medium: 768px;
 $phone: 321px;
+$fixdesktop: 1440px;
+$fixHeroImage: 993px;
+
+@mixin fixHeroImage {
+  @media (max-width: $fixHeroImage) {
+    @content;
+  }
+}
+
+@mixin fixdesktop {
+  @media (max-width: $fixdesktop) {
+    @content;
+  }
+}
 
 @mixin desktop {
   @media (max-width: $desktop) {
@@ -25,6 +39,12 @@ $phone: 321px;
 
 @mixin phone {
   @media (max-width: $phone) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $mobile) {
     @content;
   }
 }

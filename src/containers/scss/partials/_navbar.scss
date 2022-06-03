@@ -17,6 +17,9 @@ header {
 .main-menu {
   background-color: transparent;
   margin-bottom: 5.75rem;
+  @include tablet {
+    margin-bottom: 2rem;
+  }
 }
 
 #nav-mobile {
@@ -33,9 +36,15 @@ header {
   h1 {
     font-size: 3rem;
     font-family: 'Rubik', sans-serif;
-    margin-bottom: 2.29rem;
-    @include tablet {
+    margin-bottom: 2.2rem;
+    @include fixdesktop {
+      font-size: 2rem;
       margin-bottom: 1rem;
+      font-weight: 400;
+      text-align: left;
+    }
+    @include tablet {
+      margin-bottom: 2.5rem;
       font-size: 2rem;
     }
     font-weight: 700;
@@ -46,10 +55,11 @@ header {
     font-size: 1.43rem;
     line-height: 1.6;
     margin-bottom: 3.43rem;
-  }
-
-  .contact-us {
-    margin-right: 1rem;
+    @include fixdesktop {
+      font-size: 1.2rem;
+      margin-bottom: 3rem;
+      text-align: justify;
+    }
   }
 
   a {
@@ -58,6 +68,9 @@ header {
       border-radius: 34% 5%;
       display: inline-block;
       padding: 0.375rem 0.714rem;
+      @include fixHeroImage {
+        display: none;
+      }
       @include tablet {
         display: none;
       }
@@ -111,4 +124,46 @@ header {
 
   /* Trick to add border inside */
   box-shadow: inset 0 0 0 2px #fff;
+}
+
+.actions {
+  @include phone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+  }
+  padding-bottom: 2.5rem;
+  a {
+    margin-right: 1.2rem;
+    @include phone {
+      font-size: 12px;
+    }
+  }
+}
+
+.contact {
+  background: $orange-tiger;
+  opacity: 0.8;
+  text-transform: uppercase;
+  border-radius: 25px;
+  font-weight: 500;
+  &:hover {
+    background: $neat-blue;
+    color: $white-bg;
+  }
+}
+
+.learn--more {
+  background: $white-bg;
+  color: #444;
+  opacity: 0.8;
+  text-transform: uppercase;
+  border-radius: 25px;
+  font-weight: 800;
+  &:hover {
+    background: $neat-blue;
+    color: $white-bg;
+  }
 }

@@ -12,10 +12,10 @@ const Pricing = () => {
             <div className="col l6 m6 s12 pricing-margin-fix">
               <div className="pricing-table z-depth-4">
                 <div className="table-header">
-                  <h4>Starter</h4>
+                  <h3>Starter</h3>
                 </div>
                 <div className="table-content">
-                  <h3 className="center-align">$89</h3>
+                  <h4 className="center-align">$89</h4>
                   <ul className="items">
                     <li>
                       <BsCheckCircleFill className="icon-mark" /> Get Quote
@@ -47,10 +47,10 @@ const Pricing = () => {
             <div className="col l6 m6 s12">
               <div className="pricing-table z-depth-4">
                 <div className="table-header">
-                  <h4 style={{ color: '#D61C4E' }}>Complete</h4>
+                  <h3 style={{ color: '#D61C4E' }}>Ultimate</h3>
                 </div>
                 <div className="table-content">
-                  <h3 className="center-align">$199</h3>
+                  <h4 className="center-align">$199</h4>
                   <ul className="items">
                     <li>
                       <BsCheckCircleFill className="icon-mark" /> Get Quote

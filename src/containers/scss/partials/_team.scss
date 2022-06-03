@@ -5,6 +5,10 @@
     @include tablet {
       font-size: 2rem;
     }
+    @include mobile {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
   }
 
   .team-card {
@@ -41,7 +45,6 @@
     margin-top: -0.71px;
     @include tablet {
       font-size: 0.86rem;
-      color: red;
     }
   }
 

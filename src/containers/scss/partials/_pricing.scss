@@ -4,6 +4,10 @@
     @include tablet {
       font-size: 2rem;
     }
+    @include mobile {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
   }
 
   .pricing-table {
@@ -18,20 +22,28 @@
       border-bottom: 1px solid #eee;
       padding: 5px 10px;
 
-      h4 {
+      h3 {
         font-family: 'Rubik';
         text-transform: uppercase;
         text-align: center;
         font-size: 2rem;
         font-weight: bold;
+        @include mobile {
+          font-size: 2rem;
+          font-weight: 600;
+        }
       }
     }
   }
 
   .table-content {
-    h3 {
+    h4 {
       font-weight: 900;
       font-family: 'Rubik';
+      @include mobile {
+        font-size: 1.8rem;
+        font-weight: 600;
+      }
     }
     ul {
       padding: 1rem 2rem;
