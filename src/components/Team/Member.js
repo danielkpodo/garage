@@ -6,7 +6,7 @@ import { BsInstagram } from 'react-icons/bs';
 const TeamMember = ({ member }) => {
   const { img, name, position, fb, twitter, instagram } = member;
   return (
-    <div className="team-card col l6 m12 s12">
+    <div className="team-card col l6 m6 s12">
       <div className="team-member">
         <img
           src={img}
