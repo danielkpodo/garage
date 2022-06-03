@@ -23,10 +23,10 @@
       "assignedTo": {
         "name": "danielkpodo"
       },
-      "creation_time": "2022-06-03T17:42:13.316Z",
-      "id": "3",
+      "creation_time": "2022-06-03T17:42:44.769Z",
+      "id": "5",
       "references": [],
-      "title": "Page Fragment"
+      "title": "Project 2"
     },
     {
       "assignedTo": {
@@ -36,15 +36,6 @@
       "id": "2",
       "references": [],
       "title": "Simulate api request"
-    },
-    {
-      "assignedTo": {
-        "name": "danielkpodo"
-      },
-      "creation_time": "2022-06-03T17:42:44.769Z",
-      "id": "5",
-      "references": [],
-      "title": "Project 2"
     }
   ],
   "in-progress": [],

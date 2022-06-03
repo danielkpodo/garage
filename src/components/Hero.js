@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 const Hero = () => {
   return (
-    <div className="header-container container">
+    <div className="header-container container" id="home">
       <div className="row">
         <Fade left>
           <div className="col l6 m12 s12">

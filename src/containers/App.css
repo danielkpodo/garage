@@ -75,6 +75,7 @@ header {
   height: 100vh;
   background-image: linear-gradient(rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("../assets/images/hero-bg.jpg");
   background-size: cover;
+  background-color: #0a2a37;
   color: #fff;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
