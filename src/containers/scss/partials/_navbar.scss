@@ -30,6 +30,9 @@ header {
 .brand-logo {
   display: block;
   margin-left: 3.125rem;
+  @include tablet {
+    margin-left: 0;
+  }
 }
 
 .header-container {

@@ -101,6 +101,11 @@ header {
   display: block;
   margin-left: 3.125rem;
 }
+@media (max-width: 769px) {
+  .brand-logo {
+    margin-left: 0;
+  }
+}
 
 .header-container h1 {
   font-size: 3rem;
