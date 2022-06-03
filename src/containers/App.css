@@ -2,7 +2,7 @@
   width: 60px;
   height: 60px;
   position: relative;
-  margin: 400px auto;
+  margin: 360px auto;
 }
 
 #double-bounce1,
@@ -170,6 +170,9 @@ h2 {
   font-family: "Rubik", "sans-serif";
 }
 
+.product {
+  margin-bottom: 5rem;
+}
 .product .card-image .card-title {
   background: rgba(34, 34, 34, 0.7);
   color: #fff;
@@ -191,6 +194,49 @@ h2 {
 }
 .about-us .join {
   margin-bottom: 2rem;
+}
+
+.team {
+  margin-top: 80px;
+}
+.team h2 {
+  text-align: center;
+}
+.team .team-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 1rem;
+  padding: 1rem 2rem;
+  margin-bottom: 3.57rem;
+}
+
+.member-profile {
+  align-self: flex-start;
+}
+.member-profile h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Rubik", "sans-serif";
+}
+.member-profile h4 {
+  font-size: 1.14rem;
+  line-height: 1;
+  color: #9e9e9e;
+  margin-top: -0.71px;
+}
+.member-profile p {
+  font-size: 1rem;
+}
+.member-profile .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.member-profile .social-icons a {
+  display: inline-block;
+  font-size: 1.43rem;
+  color: #f66f11;
 }
 
 /*# sourceMappingURL=App.css.map */

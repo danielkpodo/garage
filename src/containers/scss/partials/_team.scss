@@ -1,0 +1,44 @@
+.team {
+  margin-top: 80px;
+  h2 {
+    text-align: center;
+  }
+
+  .team-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 1rem;
+    padding: 1rem 2rem;
+    margin-bottom: 3.57rem;
+  }
+}
+
+.member-profile {
+  align-self: flex-start;
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Rubik', 'sans-serif';
+  }
+  h4 {
+    font-size: 1.14rem;
+    line-height: 1;
+    color: #9e9e9e;
+    margin-top: -0.71px;
+  }
+  p {
+    font-size: 1rem;
+  }
+
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+      display: inline-block;
+      font-size: 1.43rem;
+      color: $orange-tiger;
+    }
+  }
+}
