@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/git@github.com-personal:danielkpodo/garage.git/static/css/main.dbb81dbf.css",
+    "main.js": "/git@github.com-personal:danielkpodo/garage.git/static/js/main.fb3adb54.js",
+    "static/media/hero-bg.jpg": "/git@github.com-personal:danielkpodo/garage.git/static/media/hero-bg.b08079336c2634746242.jpg",
+    "static/media/mechanic.png": "/git@github.com-personal:danielkpodo/garage.git/static/media/mechanic.6d5335d237181679e2e8.png",
+    "static/media/5.jpg": "/git@github.com-personal:danielkpodo/garage.git/static/media/5.31fe3654009a7c545c8c.jpg",
+    "static/media/1.jpg": "/git@github.com-personal:danielkpodo/garage.git/static/media/1.1bdff1202298f855039b.jpg",
+    "static/media/2.jpg": "/git@github.com-personal:danielkpodo/garage.git/static/media/2.c5e47a2042ec199ca3be.jpg",
+    "static/media/4.jpg": "/git@github.com-personal:danielkpodo/garage.git/static/media/4.f650894da4da87c1afe2.jpg",
+    "static/media/6.jpg": "/git@github.com-personal:danielkpodo/garage.git/static/media/6.42047de29539065b67a9.jpg",
+    "static/media/3.jpg": "/git@github.com-personal:danielkpodo/garage.git/static/media/3.f040d28c8b3d62c5c536.jpg",
+    "static/media/testimony3.png": "/git@github.com-personal:danielkpodo/garage.git/static/media/testimony3.36d09850c7abb8c4876f.png",
+    "static/media/testimony1.png": "/git@github.com-personal:danielkpodo/garage.git/static/media/testimony1.d582df183076e4ede1c4.png",
+    "static/media/contact.svg": "/git@github.com-personal:danielkpodo/garage.git/static/media/contact.094da7f983989377d7280d7ade8beae9.svg",
+    "index.html": "/git@github.com-personal:danielkpodo/garage.git/index.html",
+    "main.dbb81dbf.css.map": "/git@github.com-personal:danielkpodo/garage.git/static/css/main.dbb81dbf.css.map",
+    "main.fb3adb54.js.map": "/git@github.com-personal:danielkpodo/garage.git/static/js/main.fb3adb54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbb81dbf.css",
+    "static/js/main.fb3adb54.js"
+  ]
+}
