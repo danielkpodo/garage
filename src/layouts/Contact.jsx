@@ -4,7 +4,7 @@ import ContactImage from '../assets/images/contact.svg';
 
 const Contact = () => {
   return (
-    <div className="contact-us">
+    <div className="contact-us" id="contact">
       <Fade bottom cascade>
         <h2 className="center-align">Contact us</h2>
       </Fade>

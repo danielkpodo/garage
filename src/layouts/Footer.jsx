@@ -23,22 +23,22 @@ const Footer = () => {
               <h5>Menu</h5>
               <ul className="footer-links">
                 <li>
-                  <a href="#!">Products</a>
+                  <a href="#products">Products</a>
                 </li>
                 <li>
-                  <a href="#!">About</a>
+                  <a href="#about">About</a>
                 </li>
                 <li>
-                  <a href="#!">Pricing</a>
+                  <a href="#pricing">Pricing</a>
                 </li>
                 <li>
-                  <a href="#!">Team</a>
+                  <a href="#team">Team</a>
                 </li>
                 <li>
-                  <a href="#!">Testimonials</a>
+                  <a href="#testimonials">Testimonials</a>
                 </li>
                 <li>
-                  <a href="#!">Contact</a>
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>

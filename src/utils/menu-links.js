@@ -1,11 +1,11 @@
 const navLinks = [
-  { text: 'Home', path: '#!' },
-  { text: 'Our Products', path: '#!' },
-  { text: 'About Us', path: '#!' },
-  { text: 'Pricing', path: '#!' },
-  { text: 'Team', path: '#!' },
-  { text: 'Testimonials', path: '#!' },
-  { text: 'Contact Us', path: '#!' },
+  { text: 'Home', path: '#home' },
+  { text: 'Our Products', path: '#products' },
+  { text: 'About Us', path: '#about' },
+  { text: 'Pricing', path: '#pricing' },
+  { text: 'Team', path: '#team' },
+  { text: 'Testimonials', path: '#testimonials' },
+  { text: 'Contact Us', path: '#contact' },
 ];
 
 export default navLinks;

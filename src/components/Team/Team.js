@@ -4,7 +4,7 @@ import MemberList from './MemberList';
 
 const Team = () => {
   return (
-    <div className="team">
+    <div className="team" id="team">
       <h2>Our Amazing Team</h2>
       <div className="container">
         <div className="row">

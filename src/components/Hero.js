@@ -20,13 +20,13 @@ const Hero = () => {
 
             <div className="actions">
               <a
-                href="#!"
+                href="#contact"
                 className="waves-effect waves-light btn-small contact"
               >
                 Contact Us
               </a>
               <a
-                href="#!"
+                href="https://www.garagemobility.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="waves-effect waves-light btn-small learn--more "

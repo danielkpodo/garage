@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 const Pricing = () => {
   return (
     <>
-      <div className="pricing">
+      <div className="pricing" id="pricing">
         <h2>Our Pricing</h2>
         <div className="container">
           <div className="row">

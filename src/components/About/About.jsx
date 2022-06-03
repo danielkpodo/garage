@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (
-    <section className="about-us container-fluid">
+    <section className="about-us container-fluid" id="about">
       <div className="container">
         <Fade bottom duration={1000} distance="20px">
           <h2 className="center-align">Join Our Platform</h2>
