@@ -412,4 +412,16 @@ Custom styles for carousel
   margin: 1rem;
 }
 
+.page-footer {
+  background: #2c2e43;
+  color: #000;
+}
+.page-footer h5 {
+  color: #f66f11;
+}
+.page-footer .footer-links li > a {
+  line-height: 2;
+  color: #fff;
+}
+
 /*# sourceMappingURL=App.css.map */

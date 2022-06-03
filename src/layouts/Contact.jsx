@@ -23,29 +23,29 @@ const Contact = () => {
               laudantium sed dicta quo, aliquid neque dolore architecto in nam
               ullam ad excepturi.
             </p>
-            <div class="row">
+            <div className="row">
               <form className="submit-form">
-                <div class="input-field col l6 m6 s12">
-                  <i class="material-icons prefix">account_circle</i>
-                  <input id="icon_prefix" type="text" class="validate" />
-                  <label for="icon_prefix">First Name</label>
+                <div className="input-field col l6 m6 s12">
+                  <i className="material-icons prefix">account_circle</i>
+                  <input id="icon_prefix" type="text" className="validate" />
+                  <label htmlFor="icon_prefix">First Name</label>
                 </div>
 
-                <div class="input-field col l6 m6 s12">
-                  <i class="material-icons prefix">account_circle</i>
-                  <input id="icon_prefix" type="text" class="validate" />
-                  <label for="icon_prefix">Last Name</label>
+                <div className="input-field col l6 m6 s12">
+                  <i className="material-icons prefix">account_circle</i>
+                  <input id="icon_prefix" type="text" className="validate" />
+                  <label htmlFor="icon_prefix">Last Name</label>
                 </div>
 
-                <div class="input-field col l6 m6 s12">
-                  <i class="material-icons prefix">phone</i>
-                  <input id="icon_telephone" type="tel" class="validate" />
-                  <label for="icon_telephone">Telephone</label>
+                <div className="input-field col l6 m6 s12">
+                  <i className="material-icons prefix">phone</i>
+                  <input id="icon_telephone" type="tel" className="validate" />
+                  <label htmlFor="icon_telephone">Telephone</label>
                 </div>
-                <div class="input-field col l6 m6 s12">
-                  <i class="material-icons prefix">email</i>
-                  <input id="icon_email" type="email" class="validate" />
-                  <label for="icon_email">Email</label>
+                <div className="input-field col l6 m6 s12">
+                  <i className="material-icons prefix">email</i>
+                  <input id="icon_email" type="email" className="validate" />
+                  <label htmlFor="icon_email">Email</label>
                 </div>
                 <a
                   href="#!"
@@ -54,7 +54,7 @@ const Contact = () => {
                   name="action"
                 >
                   Submit
-                  <i class="material-icons right">send</i>
+                  <i className="material-icons right">send</i>
                 </a>
               </form>
             </div>

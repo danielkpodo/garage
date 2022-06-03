@@ -7,6 +7,7 @@ import About from '../components/About/About';
 import Team from '../components/Team/Team';
 import Testimonial from '../components/Testimonials/Testimonial';
 import Contact from '../layouts/Contact';
+import Footer from '../layouts/Footer';
 
 function App() {
   const [isLoading, setisLoading] = React.useState(true);
@@ -32,6 +33,7 @@ function App() {
         <Team />
         <Testimonial />
         <Contact />
+        <Footer />
       </>
     )
   );

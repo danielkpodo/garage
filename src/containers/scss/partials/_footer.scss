@@ -1,0 +1,11 @@
+.page-footer {
+  background: #2c2e43;
+  color: #000;
+  h5 {
+    color: $orange-tiger;
+  }
+  .footer-links li > a {
+    line-height: 2;
+    color: $white-bg;
+  }
+}
