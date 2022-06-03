@@ -46,6 +46,7 @@ header {
 
     @include phone {
       margin-bottom: 0;
+      margin-top: -10px;
     }
     @include fixdesktop {
       font-size: 2rem;
@@ -68,6 +69,7 @@ header {
     @include phone {
       margin-bottom: 0;
       font-size: 1rem;
+      margin-top: -10px;
     }
     @include fixdesktop {
       font-size: 1.2rem;
@@ -145,8 +147,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 1rem;
-    // padding-bottom: 4rem;
+    margin-top: -15px;
   }
   padding-bottom: 2.5rem;
   a {
@@ -190,8 +191,3 @@ header {
 .nav-links-item:hover {
   box-shadow: inset 300px 0 0 0 $orange-tiger;
 }
-
-// .active {
-//   background: linear-gradient(to right, #f25f4c 0%, #f25f4c 5px, transparent);
-//   opacity: 0.9;
-// }
