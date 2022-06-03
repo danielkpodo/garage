@@ -2,6 +2,12 @@
   background: #fdf2ea;
   padding: 1.5rem;
 
+  h2 {
+    @include tablet {
+      font-size: 2rem;
+    }
+  }
+
   .about-content {
     margin: 0 auto;
     text-align: center;
@@ -13,6 +19,7 @@
   }
 
   .join {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
   }
 }

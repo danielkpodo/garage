@@ -1,10 +1,16 @@
 .pricing {
   h2 {
     text-align: center;
+    @include tablet {
+      font-size: 2rem;
+    }
   }
 
   .pricing-table {
     width: 80%;
+    @include tablet {
+      width: 100%;
+    }
     margin: 0 auto;
     border: 1px solid #808080;
     .table-header {

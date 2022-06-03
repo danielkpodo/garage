@@ -47,15 +47,13 @@ const Contact = () => {
                   <input id="icon_email" type="email" className="validate" />
                   <label htmlFor="icon_email">Email</label>
                 </div>
-                <a
-                  href="#!"
-                  className="button btn--full submit-btn"
+                <button
+                  className="btn waves-effect waves-light submit-btn"
                   type="button"
-                  name="action"
                 >
                   Submit
                   <i className="material-icons right">send</i>
-                </a>
+                </button>
               </form>
             </div>
           </div>

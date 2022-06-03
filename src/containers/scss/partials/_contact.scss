@@ -1,6 +1,13 @@
 .contact-us {
   h2 {
     font-weight: 600;
+    @include tablet {
+      font-size: 2rem;
+    }
+  }
+
+  h4 {
+    font-size: 1.5rem;
   }
 
   .submit-form {
@@ -23,5 +30,7 @@
 
   .submit-btn {
     margin: 1rem;
+    font-size: 1rem;
+    background-color: $orange-tiger;
   }
 }

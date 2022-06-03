@@ -1,10 +1,22 @@
 .product {
   margin-bottom: 5rem;
+
+  h2 {
+    @include tablet {
+      font-size: 2rem;
+    }
+  }
   .card-image {
     .card-title {
       background: rgba(34, 34, 34, 0.7);
       color: $white-bg;
-      font-weight: 800;
+      font-weight: 700;
+      display: block;
+      width: 100%;
+
+      @include tablet {
+        font-size: 1.2rem;
+      }
     }
   }
 }

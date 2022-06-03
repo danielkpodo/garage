@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="row">
           <div className="col l6 s12">
             <h5>Garage Mobility</h5>
-            <p className="grey-text text-lighten-4">
+            <p>
               Garage is Africa’s premier automotive technology company,
               connecting regional and global manufacturers and distributors with
               fleets, retailers and mechanic shops and providing best in class

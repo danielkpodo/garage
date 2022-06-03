@@ -5,7 +5,14 @@
     color: $orange-tiger;
   }
   .footer-links li > a {
+    font-size: 1rem;
     line-height: 2;
-    color: $white-bg;
+    color: #eee;
+    opacity: 0.9;
+  }
+  p {
+    font-size: 1rem;
+    color: #eee;
+    opacity: 0.9;
   }
 }

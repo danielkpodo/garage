@@ -2,6 +2,9 @@
   margin-top: 80px;
   h2 {
     text-align: center;
+    @include tablet {
+      font-size: 2rem;
+    }
   }
 
   .team-card {
@@ -11,24 +14,35 @@
     grid-gap: 1rem;
     padding: 1rem 2rem;
     margin-bottom: 3.57rem;
+
+    @include tablet {
+      justify-content: space-evenly;
+    }
   }
 }
 
 .member-profile {
   align-self: flex-start;
+  @include tablet {
+    align-self: center;
+  }
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
     font-family: 'Rubik', 'sans-serif';
+    @include tablet {
+      font-size: 1.1rem;
+    }
   }
   h4 {
     font-size: 1.14rem;
     line-height: 1;
     color: #9e9e9e;
     margin-top: -0.71px;
-  }
-  p {
-    font-size: 1rem;
+    @include tablet {
+      font-size: 0.86rem;
+      color: red;
+    }
   }
 
   .social-icons {
