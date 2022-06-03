@@ -391,5 +391,25 @@ Custom styles for carousel
     border-radius: 50%;
   }
 }
+.contact-us h2 {
+  font-weight: 600;
+}
+.contact-us .submit-form {
+  margin-bottom: 2rem;
+}
+.contact-us .prefix {
+  color: #f66f11;
+}
+.contact-us p {
+  margin-bottom: 2rem;
+}
+.contact-us img {
+  max-width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+}
+.contact-us .submit-btn {
+  margin: 1rem;
+}
 
 /*# sourceMappingURL=App.css.map */

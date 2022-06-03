@@ -6,6 +6,7 @@ import Product from '../components/Product/Product';
 import About from '../components/About/About';
 import Team from '../components/Team/Team';
 import Testimonial from '../components/Testimonials/Testimonial';
+import Contact from '../layouts/Contact';
 
 function App() {
   const [isLoading, setisLoading] = React.useState(true);
@@ -30,6 +31,7 @@ function App() {
         <About />
         <Team />
         <Testimonial />
+        <Contact />
       </>
     )
   );

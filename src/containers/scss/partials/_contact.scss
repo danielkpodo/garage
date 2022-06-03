@@ -1,0 +1,27 @@
+.contact-us {
+  h2 {
+    font-weight: 600;
+  }
+
+  .submit-form {
+    margin-bottom: 2rem;
+  }
+
+  .prefix {
+    color: $orange-tiger;
+  }
+
+  p {
+    margin-bottom: 2rem;
+  }
+
+  img {
+    max-width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .submit-btn {
+    margin: 1rem;
+  }
+}
