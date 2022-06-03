@@ -8,14 +8,10 @@ const Hero = () => {
       <div className="row">
         <Fade left>
           <div className="col l6 m12 s12">
-            <h1>
-              The No.1 platform for connecting fleet owners to maintenance
-              services and affordable parts
-            </h1>
+            <h1>Your No.1 distributor of affordable automobile parts</h1>
             <p>
               We connect you to a network of local and global distributors to
-              provide parts at an affordable price, improving reliability and
-              limiting unplanned maintenance.
+              provide parts at an affordable rate.
             </p>
 
             <div className="actions">
@@ -31,7 +27,7 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 className="waves-effect waves-light btn-small learn--more "
               >
-                Learn More
+                Enquire
               </a>
             </div>
           </div>

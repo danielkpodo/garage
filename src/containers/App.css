@@ -102,15 +102,17 @@ header {
   margin-left: 3.125rem;
 }
 
-.header-container {
-  padding: 0.71rem 1.43rem;
-}
 .header-container h1 {
   font-size: 3rem;
   font-family: "Rubik", sans-serif;
   margin-bottom: 2.2rem;
   font-weight: 700;
   line-height: 1.4;
+}
+@media (max-width: 321px) {
+  .header-container h1 {
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 1440px) {
   .header-container h1 {
@@ -130,6 +132,12 @@ header {
   font-size: 1.43rem;
   line-height: 1.6;
   margin-bottom: 3.43rem;
+}
+@media (max-width: 321px) {
+  .header-container p {
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
 }
 @media (max-width: 1440px) {
   .header-container p {
@@ -207,7 +215,6 @@ header {
     justify-content: space-around;
     align-items: center;
     padding-top: 1rem;
-    padding-bottom: 4rem;
   }
 }
 .actions a {
