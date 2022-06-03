@@ -1,0 +1,58 @@
+.pricing {
+  h2 {
+    text-align: center;
+  }
+
+  .pricing-table {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #808080;
+    .table-header {
+      background-color: #f8f9fa;
+      border-bottom: 1px solid #eee;
+      padding: 5px 10px;
+
+      h4 {
+        font-family: 'Rubik';
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .table-content {
+    h3 {
+      font-weight: 900;
+      font-family: 'Rubik';
+    }
+    ul {
+      padding: 1rem 2rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    li {
+      font-size: 1.1rem;
+      line-height: 3;
+      text-align: center;
+    }
+  }
+
+  .btn-signup {
+    display: block;
+    background: $orange-tiger;
+    width: 100%;
+  }
+}
+
+.icon-mark {
+  color: $orange-tiger;
+  display: inline-block;
+  padding-bottom: -10px;
+  margin-right: 3px;
+}
+
+.pricing-margin-fix {
+  margin-bottom: 40px;
+}

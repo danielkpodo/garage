@@ -7,6 +7,7 @@ import Team from '../components/Team/Team';
 import Testimonial from '../components/Testimonials/Testimonial';
 import Contact from '../layouts/Contact';
 import Footer from '../layouts/Footer';
+import Pricing from '../components/Pricing/Pricing';
 
 function App() {
   const [isLoading, setisLoading] = React.useState(true);
@@ -26,6 +27,7 @@ function App() {
         <Navbar />
         <Product />
         <About />
+        <Pricing />
         <Team />
         <Testimonial />
         <Contact />
