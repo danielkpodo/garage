@@ -2,11 +2,14 @@ import React from 'react';
 import testimonials from '../../utils/testimonial';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
+import Fade from 'react-reveal/Fade';
 
 const Testimonial = () => {
   return (
     <div className="testimonials">
-      <h2 className="center-align">Testimonials</h2>
+      <Fade top>
+        <h2 className="center-align">Testimonials</h2>
+      </Fade>
       <div className="container">
         <div className="row">
           <div className="col l12 m12 s12">
